@@ -238,9 +238,9 @@ LOOP:
 		case "10":
 			go lc.marquee("r")
 		case "11":
-			go lc.marquee("g")
-		case "12":
 			go lc.marquee("b")
+		case "12":
+			go lc.marquee("g")
 		case "sma":
 			lc.ControlMode = modeNormal
 		case "smb":
